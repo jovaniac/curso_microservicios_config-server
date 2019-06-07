@@ -1,6 +1,6 @@
 
 server:  
-  port: ${PORT:8092}
+  port: ${PORT:8091}
 
 instance.id: ${random.value}
 
