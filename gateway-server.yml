@@ -61,15 +61,3 @@ zuul:
         serviceId: api-seguros-guadalupe-administracion
         stripPrefix: false
         sensitiveHeaders:
-
-    notification-service:
-        path: /notification/**
-        serviceId: notification-service
-        stripPrefix: false
-        sensitiveHeaders:    
-
-    ui-platform:
-        path: /**
-        serviceId: ui-platform
-        stripPrefix: false
-        sensitiveHeaders:
